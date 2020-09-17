@@ -1,0 +1,70 @@
+body{
+  background-color: rgb(253, 238, 0);
+}
+
+.content{
+  min-height: 90vh;
+}
+
+figure{
+  width: 100vw;
+  border: 5px solid rgb(184, 134, 11);
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+figure img {
+  width: 100%;
+}
+
+figcaption {
+  font-family: 'ABeeZee', sans-serif;
+  font-style: italic;
+  color: rgb(47, 27, 12);
+  text-align: center;
+}
+
+section {
+  /* background-color: #EFEFEF; */
+  max-width: 840px;
+  margin: 0 auto;
+  scroll-snap-type: y proximity;
+}
+
+section div {
+  scroll-snap-align: start;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 80px;
+  color: rgb(47, 27, 12);
+  text-align: center;
+}
+
+h2 {
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 35px;
+  color: rgb(184, 134, 11);
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(47, 27, 12);
+}
+
+header ul {
+  display: flex;
+}
+
+header li {
+  margin: 8px;
+}
+
+li a {
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 25px;
+  color: rgb(184, 134, 11);
+}
