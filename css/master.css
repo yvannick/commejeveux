@@ -1,14 +1,17 @@
-body{
-  background-color: rgb(253, 238, 0);
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&family=Raleway&display=swap');
+
+ul {}
+
+body {
+  background-color: white;
 }
 
-.content{
+.content {
   min-height: 90vh;
 }
 
-figure{
+figure {
   width: 100vw;
-  border: 5px solid rgb(184, 134, 11);
   margin-left: 50%;
   transform: translateX(-50%);
   margin-top: 50px;
@@ -20,17 +23,17 @@ figure img {
 }
 
 figcaption {
-  font-family: 'ABeeZee', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-style: italic;
   color: rgb(47, 27, 12);
   text-align: center;
 }
 
 section {
-  /* background-color: #EFEFEF; */
-  max-width: 840px;
+  max-width: 500px;
   margin: 0 auto;
-  scroll-snap-type: y proximity;
+  scroll-snap-type justify-content: space-around;
+  background-color: #FFED8B;
 }
 
 section div {
@@ -38,33 +41,51 @@ section div {
 }
 
 h1 {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 80px;
-  color: rgb(47, 27, 12);
+  color: #FFED8B;
   text-align: center;
 }
 
 h2 {
-  font-family: 'ABeeZee', sans-serif;
-  font-size: 35px;
-  color: rgb(184, 134, 11);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+  color: black;
+  text-align: left;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  color: black;
+  text-align: center;
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: rgb(47, 27, 12);
 }
 
 header ul {
   display: flex;
+  max-width: 400px;
+  justify-content: space-around;
+  text-align: center;
+  margin: 0 auto;
 }
 
-header li {
-  margin: 8px;
-}
+header li {}
 
 li a {
-  font-family: 'ABeeZee', sans-serif;
-  font-size: 25px;
-  color: rgb(184, 134, 11);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  color: #FFED8B;
+  margin-left: 40px;
+}
+
+footer {
+  max-width: 500px;
+  margin: 20px auto;
+  scroll-snap-type justify-content: space-around;
+  text-align: center;
 }
