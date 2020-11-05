@@ -9,6 +9,32 @@ body {
 .content {
   min-height: 90vh;
 }
+.click-button {
+  display: in-inline-block;
+  color : #FFED8B;
+  font-size: 2em;
+  padding: 1em;
+  border-radius: 12px;
+  transition: 1s box-shadow all ease-in;
+  transform: translateX(200px) translateY(30px);
+}
+.click-button:hover{
+  background: #FFED8B;
+  color: white;
+}
+
+.click {
+  display: in-inline-block;
+  color : #FFED8B;
+  font-size: 2em;
+  padding: 1em;
+  border-radius: 5px;
+  transition: 1s box-shadow all ease-in;
+  transform: translateX(200px) translateY(30px);
+}
+.click:hover{
+  color: black;
+}
 
 figure {
   width: 100vw;
